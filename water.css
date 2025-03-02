@@ -1,0 +1,35 @@
+.water {
+    position: fixed;
+    min-width: 20rem;
+    width: 50%;
+    right: 0;
+    top: 0;
+    bottom: 20rem;
+}
+
+.water-main {
+    top: 0;
+    margin-left: 5rem;
+    right: 0;
+    min-width: 10rem;
+}
+
+.water-upper {
+    top: 0;
+    right: 0;
+}
+
+.water-upper-corner {
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.water-lower {
+    position: fixed;
+    bottom: 5rem;
+    right: 0;
+    width: 10rem;
+    height: 5rem;
+}

@@ -1,0 +1,94 @@
+.train-line-left {
+    top: 0;
+    left: 0;
+    bottom: 10rem;
+}
+
+.train-line-bottom {
+    position: fixed;
+    height: 10rem;
+    bottom: 0;
+    width: 100%;
+}
+
+.upper-bend {
+    top: 0;
+    position: fixed;
+    left: 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.left-line {
+    position: fixed;
+    top: 5rem;
+    bottom: 5rem;
+    width: 5rem;
+}
+
+.left-stops {
+    position: fixed;
+    top: 5rem;
+    width: 10rem;
+}
+
+.bottom-stops {
+    position: fixed;
+    bottom: 0;
+    right: 10rem;
+    height: 10rem;
+}
+
+.bottom-line {
+    position: fixed;
+    bottom: 0rem;
+    height: 5rem;
+    left: 5rem;
+    right: 5rem;
+}
+
+.lower-left-bend {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.lower-right-bend {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.station-label {
+    fill: #333;
+    font-weight: 800;
+    font-family: "Nunito Sans","Helvetica Neue","Calibri","Arial",sans-serif;
+}
+
+.station-circle {
+    fill: white;
+    stroke: black;
+    stroke-width: 3;
+}
+
+.green-line {
+    stroke: #3DAE2B;
+    stroke-width: 10;
+    fill: none;
+}
+
+.pink-line {
+    stroke: #ED40A9;
+    stroke-width: 10;
+    fill: none;
+}
+
+.blue-line {
+    stroke: #00A0DF;
+    stroke-width: 10;
+    fill: none;
+}
