@@ -3,6 +3,8 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    height: 100%
 }
 
 svg {
@@ -24,14 +26,14 @@ p {
 }
 
 .upper-row {
+    width: 100%;
     display: flex;
     flex: 1;
 }
 
 .content {
-    width: 30%;
-    min-width: 20rem;
     padding-top: 2rem;
+    width: 30%
 }
 
 a {

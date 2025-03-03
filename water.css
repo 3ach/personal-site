@@ -1,5 +1,8 @@
 .water {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 5rem;
 }
 
 .water-main {
@@ -8,6 +11,7 @@
 
 .water-upper {
     display: flex;
+    flex: 1;
     right: 0;
 }
 

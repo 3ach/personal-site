@@ -1,14 +1,16 @@
 .train-line-left {
-    width: 15rem;
-    top: 0;
-    left: 0;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .train-line-bottom {
-    height: 10rem;
+    height: 5rem;
     width: 100%;
+    min-width: 480px;
     display: flex;
     flex-direction: row;
+    flex-shrink: 0;
 }
 
 .upper-bend {
@@ -19,19 +21,17 @@
 
 .left-line {
     flex: 1;
-    top: 5rem;
-    bottom: 5rem;
     width: 5rem;
 }
 
 .left-stops {
-    position: fixed;
+    position: absolute;
     top: 5rem;
     width: 10rem;
 }
 
 .bottom-stops {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 10rem;
     height: 10rem;
