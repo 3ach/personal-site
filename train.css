@@ -1,26 +1,24 @@
 .train-line-left {
+    width: 15rem;
     top: 0;
     left: 0;
-    bottom: 10rem;
 }
 
 .train-line-bottom {
-    position: fixed;
     height: 10rem;
-    bottom: 0;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .upper-bend {
     top: 0;
-    position: fixed;
-    left: 0;
     width: 5rem;
     height: 5rem;
 }
 
 .left-line {
-    position: fixed;
+    flex: 1;
     top: 5rem;
     bottom: 5rem;
     width: 5rem;
@@ -40,25 +38,18 @@
 }
 
 .bottom-line {
-    position: fixed;
-    bottom: 0rem;
+    flex: 1;
     height: 5rem;
     left: 5rem;
     right: 5rem;
 }
 
 .lower-left-bend {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 5rem;
     height: 5rem;
 }
 
 .lower-right-bend {
-    position: fixed;
-    bottom: 0;
-    right: 0;
     width: 5rem;
     height: 5rem;
 }

@@ -1,21 +1,13 @@
 .water {
-    position: fixed;
-    min-width: 20rem;
-    width: 50%;
-    right: 0;
-    top: 0;
-    bottom: 20rem;
+    display: block;
 }
 
 .water-main {
-    top: 0;
-    margin-left: 5rem;
-    right: 0;
-    min-width: 10rem;
+    flex: 1;
 }
 
 .water-upper {
-    top: 0;
+    display: flex;
     right: 0;
 }
 
@@ -24,12 +16,22 @@
     left: 0;
     width: 5rem;
     height: 5rem;
+    vertical-align: top;
 }
 
 .water-lower {
-    position: fixed;
-    bottom: 5rem;
-    right: 0;
-    width: 10rem;
     height: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.water-lower-corner {
+    height: 5rem;
+    width: 5rem;
+}
+
+.water-lower-body {
+    height: 5rem;
+    flex: 1;
 }
