@@ -33,7 +33,7 @@
 .bottom-stops {
     position: absolute;
     bottom: 0;
-    right: 10rem;
+    left: 5rem;
     height: 10rem;
 }
 
@@ -82,4 +82,21 @@
     stroke: #00A0DF;
     stroke-width: 10;
     fill: none;
+}
+
+@media (max-width: 768px) {
+    .train-line-left {
+        height: calc(100vh - 5rem);
+    }
+    
+    .left-line {
+        flex: 1;
+        max-height: calc(100vh - 10rem);
+    }
+}
+
+@media (max-width: 400px) {
+    .bottom-stops {
+        display: none;
+    }
 }
